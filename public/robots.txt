@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+Sitemap: https://cyc-atv.github.io/OCAC-YouthTaiwanStudyTour2027/sitemap.xml
