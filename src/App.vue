@@ -72,7 +72,7 @@ const { sessions, headerNews } = useTourData()
   <SectionBlock id="sessionRoot" :top-gap-level="5" :bottom-gap-level="5">
     <Session v-for="session in sessions" :key="session.id" :session="session"></Session>
   </SectionBlock>
-  <footer>
+  <footer class="mt-5 text-center">
     <p>僑務委員會 2027 Overseas Youth Observation Group © All Rights Reserved.</p>
   </footer>
   <PlaceModal/>
